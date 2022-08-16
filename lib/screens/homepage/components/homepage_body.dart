@@ -99,7 +99,7 @@ class _HomePageBodyState extends State<HomePageBody> {
                       ),
                       Image.network(
                         (provider.wordData!.imageUrl == null)
-                            ? "https://drive.google.com/file/d/1PTwQRZ3B738nYTqi84aajLeB15sqXft_/view"
+                            ? "https://firebasestorage.googleapis.com/v0/b/test-a89cb.appspot.com/o/image_not_found.png?alt=media&token=45551f1b-5b9d-4b96-8d7c-8752d1905f23"
                             : provider.wordData!.imageUrl.toString(),
                         height: getProportionateScreenHeight(200),
                         width: getProportionateScreenWidth(200),
